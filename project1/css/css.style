@@ -1,1 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color: #322F2F;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+[class*="col-"] {
+    float: left;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#wrapper {
+	height: auto;
+	width: 60%;
+	margin:auto;
+}
+h1 {
+	font-size: 1.6em;
+	color: #fff;
+}
+.row .column #thumbnail img {
+	width: 800px;
+	height: 400px;
+	object-fit: cover;
+}
+#thumbnails > img:hover {
+	border: 1px #000000 solid;
+}
+.thumbDown {
+	border: none;
+}
+.thumbUp {
+	border: 1px #9D9C9C solid;	
+}
+.largeImage {
+	height: 400px;
+	width: 800px;
+}
+.caption {
+	font-size: 20px;
+	height: 25px;
+	width: 100%;
+	color: #fff;
+}
+
+.newDiv{
+	display: inline-block;
+	position: absolute;	
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgb(54, 28, 54);
+	color: white;
+}
+
+.active-image{
+	border: 3px solid red;
+}
+
+.thumb{
+	border: none;
+}
+
+
 
